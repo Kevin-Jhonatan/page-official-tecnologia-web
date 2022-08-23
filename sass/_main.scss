@@ -1,0 +1,41 @@
+main {
+  background: $third-color;
+  margin: 0 auto 0 auto;
+  padding-bottom: 20px;
+  max-width: $max-width;
+}
+.card-group {
+  margin-bottom: 80px;
+  @include min(300px) {
+    flex-direction: column !important;
+    margin-bottom: 40px;
+  }
+  @include min(1000px) {
+    flex-direction: row !important;
+  }
+}
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.card:hover {
+  @include min(1000px) {
+    box-shadow: 8px 5px 10px 0 #b4b3b3;
+    transition: 0.2s;
+  }
+}
+.card-title {
+  text-align: center;
+}
+.container-audio {
+  display: flex;
+  justify-content: center;
+}
+.modal-content {
+  height: 500px;
+}
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
