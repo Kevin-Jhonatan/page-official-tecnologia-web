@@ -22,14 +22,9 @@
       font-weight: bold;
     }
     a:hover {
-      position: absolute;
-      z-index: 9;
       color: $first-color;
-      font-size: 400px;
+      font-size: 60px;
       transition: 0s;
-      left: 40%;
-      right: 60%;
-      top: 10%;
     }
   }
 }
