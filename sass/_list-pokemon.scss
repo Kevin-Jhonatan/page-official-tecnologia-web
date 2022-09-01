@@ -1,6 +1,6 @@
 .list-pokemon {
   height: 70px;
-  background: red;
+  background: #403e3e;
   @include min(300px) {
     display: none;
   }

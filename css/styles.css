@@ -1,6 +1,5 @@
 /* Resoluciones a mostrarse */
 /* Using media Querys with mixin sass */
-@import url(/home/keev/Sites/pagina-web-tecnologia/sass/formulario.css);
 header {
   position: fixed;
   width: 100%;
@@ -112,7 +111,7 @@ main {
 
 .list-pokemon {
   height: 70px;
-  background: red;
+  background: #403e3e;
 }
 
 @media screen and (min-width: 300px) {
